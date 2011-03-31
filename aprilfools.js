@@ -1,0 +1,1 @@
+(function(){var a=document,b=a.createElement('iframe'),c=a.body,d;b.style.visibility='hidden';c.appendChild(b);d=b.contentDocument||b.contentWindow.document;d.open();d.write('<style>#a{margin:1px}#b{width:100%}</style><table><tr><td><div id=a><form id=b><input></div></td><td width=1></td></tr></table>');d.close()})();
